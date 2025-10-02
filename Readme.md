@@ -60,8 +60,8 @@ git init
 # Check repo status
 git status
 Git States: Working Directory, Staging Area, Commit History
-bash
-Copy code
+
+
 # Stage changes
 git add .
 
@@ -74,8 +74,7 @@ Staging Area – Changes marked for commit
 Commit History – Confirmed snapshots
 
 Basic Git Commands
-bash
-Copy code
+
 git init                # Initialize a repo
 git add <file>          # Stage files
 git commit -m "msg"     # Commit staged files
@@ -83,8 +82,7 @@ git status              # Show current state
 git log                 # View commit history
 git diff                # Show unstaged changes
 Branching & Merging
-bash
-Copy code
+
 git branch <branch>     # Create a new branch
 git checkout <branch>   # Switch to the branch
 git merge <branch>      # Merge branch into current branch
@@ -106,13 +104,12 @@ Create PR
 Review → Merge
 
 Remote Repositories
-bash
-Copy code
+
 git remote add origin https://github.com/user/repo.git
 git push -u origin main
 Git Collaboration Basics
-bash
-Copy code
+
+
 git clone <repo_url>    # Clone remote repo
 git fetch               # Fetch remote changes
 git pull                # Fetch + merge remote changes
@@ -120,8 +117,6 @@ git push                # Push local commits
 Resolving Merge Conflicts
 When two branches edit the same lines:
 
-text
-Copy code
 <<<<<<< HEAD
 Current change
 =======
@@ -131,8 +126,7 @@ Edit the file manually to resolve conflicts
 
 Mark resolved:
 
-bash
-Copy code
+
 git add conflicted_file
 git commit
 Tip: Use git mergetool for visual help.
@@ -145,8 +139,7 @@ Pro Git Book
 GitHub Hello World Guide
 
 ✅ Initial Tasks
-bash
-Copy code
+
 # Install Git
 # Configure username & email
 git config --global user.name "Your Name"
@@ -171,3 +164,4 @@ git commit -m "Updated index.html"
 git remote add origin https://github.com/yourusername/git-project.git
 git branch -M main
 git push -u origin main
+
